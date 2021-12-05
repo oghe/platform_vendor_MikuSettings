@@ -23,6 +23,12 @@
             android:fragment="com.miku.exsettings.fragments.Traffic"
             android:title="@string/traffic_title" />
 
+
+         <Preference
+            android:key="monet_engine"
+            android:title="@string/monet_title"
+            android:fragment="com.miku.exsettings.fragments.MonetSettings" />
+
         <!-- Device Part -->
         <Preference
             android:key="device_part"
