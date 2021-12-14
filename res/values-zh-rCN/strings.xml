@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 Miku UI
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="miku_settings_title">MikuのSecret</string>
+    <string name="miku_settings_summary">Secret 在梦中出现 的秘密</string>
+    <string name="device_part_title">专属设置</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">🌐网速显示</string>
+    <string name="network_traffic">🌐网速显示</string>
+    <string name="network_traffic_location">要在什么地方显示网速呢？</string>
+    <string name="traffic_disabled">不用啦~</string>
+    <string name="traffic_statusbar">状态栏上面！</string>
+    <string name="traffic_expanded_statusbar">拉开状态栏后的快捷菜单里！</string>
+    <string name="network_traffic_autohide_threshold_title">低于多少KB/s的时候藏起网速显示呢</string>
+    <string name="network_traffic_arrow">用箭头来区分上传与下载~</string>
+    <string name="network_traffic_arrow_summary">箭头？快去请779~！ε=ε=ε=┏(゜ロ゜;)┛</string>
+    <string name="network_traffic_type">要怎么显示网速呢？</string>
+    <string name="show_network_traffic_combined">合体罢（不区分上传下载）</string>
+    <string name="show_network_traffic_dynamic">有事启奏，无事guna（动态显示）</string>
+    <string name="show_network_traffic_up">只显示上传就够啦OnO</string>
+    <string name="show_network_traffic_down">只显示下载就够啦QvQ
+    </string>
+    <string name="show_network_traffic_all">我全都要</string>
+    <string name="nettraf_font_size">只显示一种网速时的字体大小</string>
+
+</resources>
