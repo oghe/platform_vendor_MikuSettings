@@ -20,6 +20,12 @@
     <string name="miku_settings_summary">The Secret I have always dreamed of</string>
     <string name="device_part_title">Device Settings</string>
 
+    <!-- Media artwork -->
+    <string name="keyguard_media_art_title">Show media artwork</string>
+    <string name="keyguard_media_art_summary">Show artwork of current media as lockscreen background instead of wallpaper</string>
+    <string name="keyguard_media_art_enable_blur_title">Blur media artwork</string>
+    <string name="keyguard_media_art_blur_radius_title">Blur amount for media artwork</string>
+
      <!-- Monet Engine -->
      <string name="monet_engine_custom_color_title">Use custom color</string>
      <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
