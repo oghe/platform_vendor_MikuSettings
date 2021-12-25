@@ -23,11 +23,15 @@
             android:fragment="com.miku.exsettings.fragments.Traffic"
             android:title="@string/traffic_title" />
 
-
          <Preference
             android:key="monet_engine"
             android:title="@string/monet_title"
             android:fragment="com.miku.exsettings.fragments.MonetSettings" />
+
+         <Preference
+            android:key="media_notification"
+            android:title="@string/artwork_media_title"
+            android:fragment="com.miku.exsettings.fragments.MediaNotification" />
 
         <!-- Device Part -->
         <Preference

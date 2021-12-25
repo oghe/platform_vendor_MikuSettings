@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021 crDroid Android Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:key="media_notification"
+    android:title="@string/artwork_media_title">
+
+        <com.miku.exsettings.preferences.SystemSettingSwitchPreference
+            android:key="artwork_media_background"
+            android:title="@string/artwork_media_background_title"
+            android:summary="@string/artwork_media_background_summary"
+            android:defaultValue="false" />
+
+        <com.miku.exsettings.preferences.SystemSettingSwitchPreference
+            android:key="artwork_media_background_enable_blur"
+            android:title="@string/artwork_media_background_enable_blur_title"
+            android:dependency="artwork_media_background"
+            android:defaultValue="false" />
+
+        <com.miku.exsettings.preferences.SystemSettingSeekBarPreference
+            android:key="artwork_media_background_blur_radius"
+            android:title="@string/artwork_media_background_blur_radius_title"
+            android:dependency="artwork_media_background_enable_blur"
+            android:defaultValue="1"
+            android:max="25"
+            settings:min="1" />
+
+        <com.miku.exsettings.preferences.SystemSettingSeekBarPreference
+            android:key="artwork_media_background_alpha"
+            android:title="@string/artwork_media_background_alpha_title"
+            android:dependency="artwork_media_background"
+            android:defaultValue="255"
+            android:max="255"
+            settings:min="0" />
+
+</PreferenceScreen>
