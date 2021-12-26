@@ -20,9 +20,18 @@
     <string name="miku_settings_summary">Secret 在梦中出现 的秘密</string>
     <string name="device_part_title">专属设置</string>
 
+     <!-- Monet Engine -->
+     <string name="monet_engine_custom_color_title">选取我想要的颜色来作为主题色</string>
+     <string name="monet_engine_custom_color_summary">emmm，有的时候不大想要壁纸取色呢，那就自己设置一个好啦！</string>
+     <string name="monet_engine_color_override_title">自定义颜色</string>
+     <string name="monet_engine_white_luminance_user_title">漂白度</string>
+     <string name="monet_engine_accurate_shades_title">绝对精确の色调</string>
+     <string name="monet_engine_chroma_factor_title">颜色理智（强调）程度</string>
+     <string name="monet_engine_linear_lightness_title">线性色彩渲染</string>
+
     <!-- Statusbar net monitor -->
-    <string name="traffic_title">🌐网速显示</string>
-    <string name="network_traffic">🌐网速显示</string>
+    <string name="traffic_title">🌐 网速显示</string>
+    <string name="network_traffic">🌐 网速显示</string>
     <string name="network_traffic_location">要在什么地方显示网速呢？</string>
     <string name="traffic_disabled">不用啦~</string>
     <string name="traffic_statusbar">状态栏上面！</string>
@@ -38,5 +47,8 @@
     </string>
     <string name="show_network_traffic_all">我全都要</string>
     <string name="nettraf_font_size">只显示一种网速时的字体大小</string>
+
+     <!-- UI settings -->
+     <string name="monet_title">🎨 Monet 主题引擎</string>
 
 </resources>
