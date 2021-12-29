@@ -33,6 +33,11 @@
             android:title="@string/artwork_media_title"
             android:fragment="com.miku.exsettings.fragments.MediaNotification" />
 
+         <Preference
+            android:key="theme_settings"
+            android:title="@string/theme_customization_category"
+            android:fragment="com.miku.exsettings.fragments.ThemeSettings" />
+
         <!-- Device Part -->
         <Preference
             android:key="device_part"
