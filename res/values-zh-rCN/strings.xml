@@ -29,6 +29,24 @@
      <string name="monet_engine_chroma_factor_title">颜色理智（强调）程度</string>
      <string name="monet_engine_linear_lightness_title">线性色彩渲染</string>
 
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">显示亮度调节条</string>
+    <string name="qs_brightness_slider_summary">在下拉的快捷菜单里显示亮度调节条~</string>
+    <string name="qs_brightness_position_bottom_title">让亮度条显示在底下</string>
+    <string name="qs_brightness_position_bottom_summary">顾名思义呢~就是让亮度调节条显示在快捷菜单的底下哦</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">显示自动亮度按钮</string>
+    <string name="brightness_icon_summary">在亮度调节条的末端显示自动亮度按钮~</string>
+
+    <!-- Quick QS Panel brightness slider -->
+    <string name="quick_qs_brightness_slider_title">拉下状态栏就显示亮度调节条</string>
+    <string name="quick_qs_brightness_slider_summary">顾名思义~就是不用展开快捷菜单也能显示亮度调节条哦！</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">状态栏亮度滑动控制</string>
+    <string name="status_bar_toggle_brightness_summary">通过抚摸 Miku 的脑袋（状态栏）来调节亮度吧！</string>
+
     <!-- Statusbar net monitor -->
     <string name="traffic_title">🌐 网速显示</string>
     <string name="network_traffic">🌐 网速显示</string>
