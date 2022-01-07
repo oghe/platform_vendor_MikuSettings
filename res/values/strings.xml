@@ -27,7 +27,7 @@
     <string name="keyguard_media_art_blur_radius_title">Blur amount for media artwork</string>
 
     <!-- Media notification -->
-    <string name="artwork_media_title">Media notification</string>
+    <string name="artwork_media_title">🎼 Miku Media notification</string>
     <string name="artwork_media_background_title">Artwork media background</string>
     <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
     <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
@@ -62,8 +62,8 @@
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
     <!-- Statusbar net monitor -->
-    <string name="traffic_title">Traffic Indicators</string>
-    <string name="network_traffic">Network traffic</string>
+    <string name="traffic_title">🌐 Traffic Indicators</string>
+    <string name="network_traffic">🌐 Network traffic</string>
     <string name="network_traffic_state_title">Network traffic display</string>
     <string name="network_traffic_location">Traffic indicator placement</string>
     <string name="traffic_disabled">Disabled</string>
@@ -81,7 +81,7 @@
     <string name="nettraf_font_size">Single net font size</string>
 
      <!-- UI settings -->
-     <string name="monet_title">Monet settings</string>
+     <string name="monet_title">🎨 Monet settings</string>
      <string name="monet_summary">Customize Monet theme engine</string>
 
 </resources>
