@@ -22,66 +22,66 @@
 
     <!-- Media artwork -->
     <string name="keyguard_media_art_title">Show media artwork</string>
-    <string name="keyguard_media_art_summary">Show artwork of current media as lockscreen background instead of wallpaper</string>
-    <string name="keyguard_media_art_enable_blur_title">Blur media artwork</string>
-    <string name="keyguard_media_art_blur_radius_title">Blur amount for media artwork</string>
+    <string name="keyguard_media_art_summary">Miku UI will set Album as ur lockscreen wallerpaper while u are listening music!</string>
+    <string name="keyguard_media_art_enable_blur_title">Blurrrr~ media artwork</string>
+    <string name="keyguard_media_art_blur_radius_title">Blurrrr~ amount for media artwork</string>
 
     <!-- Media notification -->
     <string name="artwork_media_title">🎼 Miku Media notification</string>
-    <string name="artwork_media_background_title">Artwork media background</string>
-    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
-    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
-    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
-    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
+    <string name="artwork_media_background_title">Enable Miku Media notification</string>
+    <string name="artwork_media_background_summary">Miku UI will make ur Media notification looks cool!</string>
+    <string name="artwork_media_background_enable_blur_title">Blurrrr~ media media artwork background</string>
+    <string name="artwork_media_background_blur_radius_title">Blurrrr~ amount for media artwork</string>
+    <string name="artwork_media_background_alpha_title">Transparency of background</string>
 
      <!-- Monet Engine -->
-     <string name="monet_engine_custom_color_title">Use custom color</string>
-     <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+     <string name="monet_engine_custom_color_title">Choose color which u want as ur main color</string>
+     <string name="monet_engine_custom_color_summary">Well...I wanna pick it myself rather than pick from wallpaper.</string>
      <string name="monet_engine_color_override_title">Custom color</string>
-     <string name="monet_engine_white_luminance_user_title">White luminance</string>
+     <string name="monet_engine_white_luminance_user_title">How white could it be?</string>
      <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
+     <string name="monet_engine_chroma_factor_title">Lost miku no mind!</string>
      <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Show brightness slider</string>
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
     <string name="qs_brightness_position_bottom_title">Show brightness slider on bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+    <string name="qs_brightness_position_bottom_summary">As u can see...make brightness slider show on bottom quick settings</string>
 
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Adaptive brightness button</string>
-    <string name="brightness_icon_summary">Show adaptive brightness button</string>
+    <string name="brightness_icon_summary">Show adaptive brightness button at the end of slider~</string>
 
     <!-- Quick QS Panel brightness slider -->
     <string name="quick_qs_brightness_slider_title">Show brightness slider in Quick QS Panel</string>
-    <string name="quick_qs_brightness_slider_summary">Show a brightness slider in the quick qs panel</string>
+    <string name="quick_qs_brightness_slider_summary">You dont even need to pull it down! OAO</string>
 
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Brightness control by touch head</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by stroking Miku\' head.</string>
 
     <!-- Statusbar net monitor -->
     <string name="traffic_title">🌐 Traffic Indicators</string>
     <string name="network_traffic">🌐 Network traffic</string>
     <string name="network_traffic_state_title">Network traffic display</string>
-    <string name="network_traffic_location">Traffic indicator placement</string>
-    <string name="traffic_disabled">Disabled</string>
+    <string name="network_traffic_location">Where should we show the Traffic Indicator?</string>
+    <string name="traffic_disabled">Damedesu!</string>
     <string name="traffic_statusbar">Statusbar</string>
     <string name="traffic_expanded_statusbar">Expanded header</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
     <string name="network_traffic_arrow">Show arrows</string>
-    <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
-    <string name="show_network_traffic_dynamic">Dynamic</string>
-    <string name="show_network_traffic_up">Upload</string>
-    <string name="show_network_traffic_down">Download</string>
-    <string name="show_network_traffic_all">Both</string>
-    <string name="nettraf_font_size">Single net font size</string>
+    <string name="network_traffic_arrow_summary">That\'s not ArrowOS, but hey, where is TH779?</string>
+    <string name="network_traffic_type">How Miku UI show it?</string>
+    <string name="show_network_traffic_combined">Twins</string>
+    <string name="show_network_traffic_dynamic">Only on necessary</string>
+    <string name="show_network_traffic_up">Upload is enough</string>
+    <string name="show_network_traffic_down">Download is enough</string>
+    <string name="show_network_traffic_all">I want both</string>
+    <string name="nettraf_font_size">Font size when there\'s only single net</string>
 
      <!-- UI settings -->
-     <string name="monet_title">🎨 Monet settings</string>
+     <string name="monet_title">🎨 Monet Theme Engine</string>
      <string name="monet_summary">Customize Monet theme engine</string>
 
 </resources>
