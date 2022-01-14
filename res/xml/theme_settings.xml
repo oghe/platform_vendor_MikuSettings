@@ -18,12 +18,6 @@
     android:title="@string/theme_customization_category">
 
         <Preference
-            android:key="android.theme.customization.fonts"
-            android:title="@string/theme_customization_font_title"
-            android:summary="@string/theme_customization_font_summary"
-            android:fragment="com.miku.exsettings.fragments.FontsPicker"/>
-
-        <Preference
             android:key="android.theme.customization.icon_pack"
             android:title="@string/theme_customization_icon_pack_title"
             android:summary="@string/theme_customization_icon_pack_summary"
