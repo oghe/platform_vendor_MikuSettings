@@ -48,5 +48,4 @@
                  android:targetPackage="org.omnirom.device"
                  android:targetClass="org.omnirom.device.DeviceSettings"/>
         </Preference>
-
 </PreferenceScreen>

@@ -48,6 +48,7 @@ import com.android.settings.Utils;
 
 import com.miku.exsettings.preferences.CustomSeekBarPreference;
 import com.miku.exsettings.preferences.SystemSettingSwitchPreference;
+import com.miku.exsettings.preferences.SecureSettingSwitchPreference;
 
 public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -56,12 +57,16 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
     private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD  = "network_traffic_autohide_threshold";
     private static final String NETWORK_TRAFFIC_ARROW  = "network_traffic_arrow";
     private static final String NETWORK_TRAFFIC_FONT_SIZE  = "network_traffic_font_size";
+    private static final String COMBINED_STATUSBAR_ICONS = "show_combined_status_bar_signal_icons";
+    private static final String CONFIG_RESOURCE_NAME = "flag_combined_status_bar_signal_icons";
+    private static final String SYSTEMUI_PACKAGE = "com.android.systemui";
 
     private ListPreference mNetTrafficLocation;
     private ListPreference mNetTrafficType;
     private CustomSeekBarPreference mNetTrafficSize;
     private CustomSeekBarPreference mThreshold;
     private SystemSettingSwitchPreference mShowArrows;
+    SecureSettingSwitchPreference mCombinedIcons;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -104,9 +109,28 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
             updateTrafficLocation(location+1);
         } else {
             mNetTrafficLocation.setValue("0");
-            updateTrafficLocation(0); 
+            updateTrafficLocation(0);
         }
         mNetTrafficLocation.setSummary(mNetTrafficLocation.getEntry());
+
+        mCombinedIcons = (SecureSettingSwitchPreference)
+                findPreference(COMBINED_STATUSBAR_ICONS);
+        Resources sysUIRes = null;
+        boolean def = false;
+        int resId = 0;
+        try {
+            sysUIRes = getActivity().getPackageManager()
+                    .getResourcesForApplication(SYSTEMUI_PACKAGE);
+        } catch (Exception ignored) {
+            // If you don't have system UI you have bigger issues
+        }
+        if (sysUIRes != null) {
+            resId = sysUIRes.getIdentifier(
+                    CONFIG_RESOURCE_NAME, "bool", SYSTEMUI_PACKAGE);
+            if (resId != 0) def = sysUIRes.getBoolean(resId);
+        }
+        mCombinedIcons.setChecked(Settings.Secure.getInt(getActivity().getContentResolver(), COMBINED_STATUSBAR_ICONS, def ? 1 : 0) == 1);
+        mCombinedIcons.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -152,6 +176,9 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
             int width = ((Integer)objValue).intValue();
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_FONT_SIZE, width);
+            return true;
+	} else if (preference == mCombinedIcons) {
+            Settings.Secure.putInt(getActivity().getContentResolver(), COMBINED_STATUSBAR_ICONS, (boolean) objValue ? 1 : 0);
             return true;
         }
         return false;

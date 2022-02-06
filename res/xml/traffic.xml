@@ -53,4 +53,10 @@
         android:min="26"
         settings:defaultValue="36"
         settings:units="dp" />
+
+     <com.miku.exsettings.preferences.SecureSettingSwitchPreference
+        android:key="show_combined_status_bar_signal_icons"
+        android:title="@string/combined_status_bar_signal_icons"
+        android:summary="@string/combined_status_bar_signal_icons_summary"
+        android:defaultValue="false"/>
 </PreferenceScreen>

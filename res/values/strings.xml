@@ -79,6 +79,8 @@
     <string name="show_network_traffic_down">Download is enough</string>
     <string name="show_network_traffic_all">I want both</string>
     <string name="nettraf_font_size">Font size when there\'s only single net</string>
+    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
 
     <!-- Themes Settings -->
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
